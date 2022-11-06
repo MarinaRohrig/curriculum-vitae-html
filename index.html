@@ -4,60 +4,72 @@
 <head>
     <meta charset="UTF-8">
     <title>Curriculum Vitae</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
 </head>
-
 <body>
     <header>
-        <table align="center" style="border-style:solid;">
-        <tr>
-            <td align="center">
-            <h1>Curriculum Vitae </h1>
-            <hr>
-            <img src="luciana.jfif" width="150px"></img>
-            <hr>
-            <h1>Luciana Elisa Melo </h1>
-        </td>
-        </tr>
-    </table>
+        <table align="center">
+            <tr>
+                <td>
+                    Curriculum Vitae
+                    <hr>
+                    <img src="luciana.jfif" width="150px"></img>
+                    <hr>
+                    Luciana Elisa Melo
+                </td>
+            </tr>
+        </table>
+        <br>
     </header>
-    <br>
-    <h2> Dados pessoais</h2>
-    <b>Email:</b> luciana.elisa.melo@startingfitness.com.br
-    <br>
-    <b>Gênero:</b> Feminino
-    <br>
-    <b>Estado civil:</b> Solteira
-    <br>
-    <b>Data de nascimento:</b> 16/03/1997
-    <br>
-    <h2>Endereço</h2>
-    <b>Nome da rua:</b> José de Barcelos
-    <br>
-    <b>Cidade:</b> Fortaleza
-    <br>
-    <b>Estado:</b> CE
-    <br>
-    <b>Bairro:</b> Parque Araxá
-    <br>
-    <b>CEP:</b> 60450-510
-    <br>
-
-    <h2>Informações educacionais e profissionais</h2>
-    <ul>
-        <style>
-            a:hover {
-                color: rgb(255, 60, 180);
-            }
-
-            a {
-                text-decoration: none;
-                color: black;
-            }
-        </style>
-        <li><a href="formacao-academica.html" target="_blank">Formação acadêmica</a></li>
-        <li><a href="cursos-realizados.html" target="_blank">Cursos realizados</a></li>
-        <li><a href="experiencias-profissionais.html" target="_blank">Experiências profissionais</a></li>
-    </ul>
+    <div class="container">
+        <div>
+            <section id="section1">
+                <h2> Dados pessoais</h2>
+                <p>
+                    <b>Email:</b> luciana.elisa.melo@startingfitness.com.br
+                    <br>
+                    <b>Gênero:</b> Feminino
+                    <br>
+                    <b>Estado civil:</b> Solteira
+                    <br>
+                    <b>Data de nascimento:</b> 16/03/1997
+                </p>
+                <br>
+            </section>
+            <br>
+            <section id="section2">
+                <h2>Endereço</h2>
+                <p>
+                <b>Nome da rua:</b> José de Barcelos
+                <br>
+                <b>Cidade:</b> Fortaleza
+                <br>
+                <b>Estado:</b> CE
+                <br>
+                <b>Bairro:</b> Parque Araxá
+                <br>
+                <b>CEP:</b> 60450-510
+                <br>
+            </p>
+            </section>
+        </div>
+        <div>
+            <aside id="aside">
+                <h2>Informações educacionais e profissionais</h2>
+                <ul>
+                    <li><a href="formacao-academica.html" target="_blank">Formação acadêmica</a></li>
+                    <li><a href="cursos-realizados.html" target="_blank">Cursos realizados</a></li>
+                    <li><a href="experiencias-profissionais.html" target="_blank">Experiências profissionais</a></li>
+                </ul>
+            </aside>
+        </div>
+    </div>
+    <footer>
+        © Florianópolis - 06/11/2020
+    </footer>
 </body>
 
 </html>
